@@ -6,7 +6,7 @@ Deployed on GitHub pages.
 
 To run project locally:
 
-> git clone <repo url>
+> git clone [repo url]
 
 Open up with live server
 
