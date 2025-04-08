@@ -1,5 +1,5 @@
 # Hobby-Website
-A hobby website built using pure HTML and CSS.
+A hobby website built with HTML and CSS, using the [Tailwind CSS](https://tailwindcss.com/) framework.
 
 Deployed on GitHub pages.
 
@@ -14,4 +14,4 @@ Open up with live server
 
 ## Contributing rules
 
-You will follow **all** the rules from now on
+You will follow all the rules from now on.
