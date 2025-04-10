@@ -3,20 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Hobby Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-    <nav class="navbar">
-        <h1>Hobby Website</h1>
-        <ul class="nav-container">
-            <li>
-                <a href="#">Hobbies</a>
-            </li>
-            <li>
-                <a href="#">Contact</a>
-            </li>
-        </ul>
+
+<body class = "bg-zinc-200 text-zinc-500 min-h-screen flex flex-col">
+    <nav class="bg-zinc-500 text-zinc-800 fixed w-full flex justify-between px-4 h-16 shadow-lg/30 ring-2 ring-zinc-300">
+        <p class="mt-1 text-[32px] font-thin"><a class="hover:text-purple-600 hover:bg-zinc-800 transition duration-100 truncate bg-purple-500 rounded-sm px-3 pb-2" href="index.html">drew's hobby website</a></p>
+
+        <!-- Navbar elements for desktop -->
+        <div class="hidden md:flex justify-between px-2 gap-10">
+            <ul class="flex items-center gap-6 px-4 text-xl">
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 transition duration-100 rounded-sm px-3 py-2" href="coding.html">Coding</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 transition duration-100 rounded-sm px-3 py-2" href="spriting.html">Spriting</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 transition duration-100 rounded-sm px-3 py-2" href="clarinet.html">Clarinet</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 transition duration-100 rounded-sm px-3 py-2" href="other.html">Other</a>
+                </li>
+            </ul>
+            <ul class="flex items-center gap-8 px-4 text-2xl">
+                <li>
+                    <a class="hover:text-purple-500 transition duration-100" href="#">☰</a>
+                </li>
+            </ul>
+        </div>
+        
     </nav>
+    <main class="container pt-22 pb-8 gap-x-10 gap-y-2 grid md:grid-cols-2 grid-rows-4 mx-auto px-8 md:max-w-3/4 md:max-h-screen">
+        <div class="rounded-md bg-zinc-100 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 row-span-4 px-6 py-6 text-zinc-600 text-lg">
+            <h2 class="text-4xl text-zinc-800 font-bold pb-4">Welcome!</h2>
+            <p>
+                I'm Drew, a 21-year-old aspiring software developer. This website shares information about some of my hobbies and projects, and includes pictures.
+                <br>
+                <br>
+            </p>
+            <p class="md:hidden">
+                Tap on one of the options below to see more about that hobby.
+            </p>
+            <p class="hidden md:inline">
+                Click on one of the options to the right to see more about that hobby, or use the navigation bar at the top of the page.
+            </p>
+            <p>
+                <br>
+                Alternatively, look at this picture of my cat Loki (2018-2025):
+            </p>
+            <img
+                src="https://media.discordapp.net/attachments/762715596550701106/1356325221782655146/IMG_0726.jpg?ex=67f8ae0c&is=67f75c8c&hm=547ea68c8d36e1944a2534b315975a2ef4fd8f14aa300097fa6cfccab3e9f998&=&format=webp&width=1066&height=800"
+                alt="Loki, a small and fluffy white cat with patches of black fur on top of his head. He is sitting in a purple blanket in front of a large &quot;Djungelskog&quot; bear plush."
+                title="Loki, a small and fluffy white cat with patches of black fur on top of his head. He is sitting in a purple blanket in front of a large &quot;Djungelskog&quot; bear plush."
+                class="rounded-md w-full h-56 overflow-clip my-8 object-cover align-bottom"
+            />
+        </div>
+        <a href="coding.html" class="rounded-md bg-zinc-100 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 grid grid-cols-2 md:grid-cols-5 hover:ring-purple-600 hover:ring-4 transition duration-100 overflow-clip">
+            <img
+                src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="object-cover rounded-l-md md:col-span-2 h-full w-full"
+                alt="A closeup of a laptop displaying function declaration code."
+                title="A closeup of a laptop displaying function declaration code."
+            />
+            <div class="md:col-span-3 px-4 py-4">
+                <h2 class="text-3xl text-zinc-800 font-bold pb-4">Coding</h2>
+                <p>Personal coding projects I have worked on or am working on.</p>
+            </div>
+        </a>
+        <a href="spriting.html" class="rounded-md bg-zinc-100 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 grid grid-cols-2 md:grid-cols-5 hover:ring-purple-600 hover:ring-4 transition duration-100 overflow-clip">
+            <img
+                src="https://images.steamusercontent.com/ugc/44580833210402977/118C0F7327A70BD094C53B8FDAA0844798928F3C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                class="object-cover rounded-l-md md:col-span-2 h-full w-full"
+                alt="Sprite art of a masked samurai character standing in front of a paper screen."
+                title="Sprite art of a masked samurai character standing in front of a paper screen."
+            />
+            <div class="md:col-span-3 px-4 py-4">
+                <h2 class="text-3xl text-zinc-800 font-bold pb-4">Spriting</h2>
+                <p>Sprite art primarily made for use in coding projects.</p>
+            </div>
+        </a>
+        <a href="clarinet.html" class="rounded-md bg-zinc-100 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 grid grid-cols-2 md:grid-cols-5 hover:ring-purple-600 hover:ring-4 transition duration-100 overflow-clip">
+            <img
+                src="https://images.unsplash.com/photo-1600771488491-c22d42a9347d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="object-cover rounded-l-md md:col-span-2 h-full w-full"
+                alt="Closeup of a B-flat clarinet resting atop several disorganised sheets of music."
+                title="Closeup of a B-flat clarinet resting atop several disorganised sheets of music."
+            />
+            <div class="md:col-span-3 px-4 py-4">
+                <h2 class="text-3xl text-zinc-800 font-bold pb-4">Clarinet</h2>
+                <p>Since 2017 I have practiced the clarinet in my free time.</p>
+            </div>
+        </a>
+        <a href="other.html" class="rounded-md bg-zinc-100 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 grid grid-cols-2 md:grid-cols-5 hover:ring-purple-600 hover:ring-4 transition duration-100 overflow-clip">
+            <img
+                src="https://images.unsplash.com/photo-1657395353310-bf715b8f3918?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="object-cover rounded-l-md md:col-span-2 h-full w-full"
+                alt="Three small tubs of pale seagreen, chinese blue, and black paint. In the background, a ceramic bowl is painted blue with black and white flowers."
+                title="Three small tubs of pale seagreen, chinese blue, and black paint. In the background, a ceramic bowl is painted blue with black and white flowers."
+            />
+            <div class="md:col-span-3 px-4 py-4">
+                <h2 class="text-3xl text-zinc-800 font-bold pb-4">Other</h2>
+                <p>Hobbies I take part in less often. Also open to recommendations!</p>
+            </div>
+        </a>
+    </main>
 </body>
 </html>
