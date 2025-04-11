@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spriting | Hobby Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class = "bg-zinc-200 dark:bg-black text-zinc-600 dark:text-zinc-400 min-h-screen flex flex-col">
+    <nav class="bg-zinc-500 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 fixed w-full flex justify-between px-4 h-16 shadow-lg/30 ring-2 ring-zinc-300 dark:ring-zinc-700">
+        <p class="mt-1 text-[32px] font-thin"><a class="hover:text-purple-600 hover:bg-zinc-800 hover:dark:text-purple-500 hover:dark:bg-zinc-700 transition duration-100 truncate bg-purple-500 dark:bg-purple-900 rounded-sm px-3 pb-2" href="index.html">drew's hobby website</a></p>
+
+        <!-- Navbar elements for desktop -->
+        <div class="hidden md:flex justify-between px-2 gap-10">
+            <ul class="flex items-center gap-6 px-4 text-xl">
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="coding.html">Coding</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 bg-purple-500 dark:bg-purple-900 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="spriting.html">Spriting</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="clarinet.html">Clarinet</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <main class="container pt-22 pb-8 gap-x-6 gap-y-10 grid md:grid-cols-4 md:grid-rows-2 mx-auto px-8 md:max-w-3/4 md:max-h-screen">
+        <div class="flex flex-col rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 md:col-span-2 overflow-clip">
+            <p class="px-4 py-4">
+                I make my sprite art in a program called Aseprite, which has many features designed for spriting in tandem with games development.<br><br>
+                Click below to go to Aseprite's website (this is an external website with which I am not affiliated).
+            </p>
+            <a href="https://www.aseprite.org/" target="_blank"><img
+                src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/431730/capsule_616x353.jpg?t=1712679350"
+                class="object-cover rounded-b-md h-full w-full"
+                alt="The Aseprite logo. Clicking this image will take you to the Aseprite website."
+                title="The Aseprite logo. Clicking this image will take you to the Aseprite website."
+            /></a>
+        </div>
+        <div class="flex rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip md:col-span-2">
+            <img
+                src="https://media.discordapp.net/attachments/734502194115641444/1360054833943678986/Sprite-0001-export.gif?ex=67f9b945&is=67f867c5&hm=95aff6547d303905f9ed5b5c6c185d25b15b3dc4770822f0860e0aa760b14a58&=&width=1600&height=800"
+                alt="A simple sprite animation of a purple-clad pink-haired witch and a crewmate from Among Us bouncing to the same rhythm."
+                title="A simple sprite animation of a purple-clad pink-haired witch and a crewmate from Among Us bouncing to the same rhythm."
+            />
+        </div>
+        <div class="flex rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip md:col-span-1">
+            <img
+                src="https://media.discordapp.net/attachments/734502194115641444/1360061080654708737/Bullet_Knight_Showdown_render_big.png?ex=67f9bf16&is=67f86d96&hm=a6fa6abe65887343489a2cd2981115c416b1948a1a534dbd3a391f1cb3f53ec9&=&format=webp&quality=lossless&width=640&height=663"
+                alt="Full-body sprite art of a masked samurai character holding a gun staff."
+                title="Full-body sprite art of a masked samurai character holding a gun staff."
+                class="object-cover"
+            />
+        </div>
+        <div class="flex rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip md:col-span-1">
+            <img
+                src="https://images.steamusercontent.com/ugc/44580833210402977/118C0F7327A70BD094C53B8FDAA0844798928F3C/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="Sprite art of a masked samurai character standing in front of a paper screen."
+                title="Sprite art of a masked samurai character standing in front of a paper screen."
+                class="object-cover"
+            />
+        </div>
+        <div class="flex rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip md:col-span-1">
+            <img
+                src="https://images.steamusercontent.com/ugc/44580833213554571/7EED47C7666AD207F47B502067451EB202305F66/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="Sprite art of a red crewmate from Among Us with ominous shading on a simple space background."
+                title="Sprite art of a red crewmate from Among Us with ominous shading on a simple space background."
+                class="object-cover"
+            />
+        </div>
+        <div class="flex rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip md:col-span-1">
+            <img
+                src="https://images.steamusercontent.com/ugc/44580833213554572/D358390F97FA5D97493C8CD5EE5EDF247FCCF941/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false"
+                alt="Sprite art of the prior crewmate revealing itself to be an impostor by opening its mouth to display sharp teeth and a long tongue."
+                title="Sprite art of the prior crewmate revealing itself to be an impostor by opening its mouth to display sharp teeth and a long tongue."
+                class="object-cover"
+            />
+        </div>
+    </main>
+</body>
+</html>
