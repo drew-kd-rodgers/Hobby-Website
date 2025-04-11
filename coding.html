@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class = "bg-zinc-200 dark:bg-black text-zinc-600 dark:text-zinc-400 min-h-screen flex flex-col">
+    <nav class="bg-zinc-500 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 fixed w-full flex justify-between px-4 h-16 shadow-lg/30 ring-2 ring-zinc-300 dark:ring-zinc-700">
+        <p class="mt-1 text-[32px] font-thin"><a class="hover:text-purple-600 hover:bg-zinc-800 hover:dark:text-purple-500 hover:dark:bg-zinc-700 transition duration-100 truncate bg-purple-500 dark:bg-purple-900 rounded-sm px-3 pb-2" href="index.html">drew's hobby website</a></p>
+
+        <!-- Navbar elements for desktop -->
+        <div class="hidden md:flex justify-between px-2 gap-10">
+            <ul class="flex items-center gap-6 px-4 text-xl">
+                <li>
+                    <a class="hover:text-purple-500 bg-purple-500 dark:bg-purple-900 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="coding.html">Coding</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="spriting.html">Spriting</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="clarinet.html">Clarinet</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="other.html">Other</a>
+                </li>
+            </ul>
+            <ul class="flex items-center gap-8 px-4 text-2xl">
+                <li>
+                    <a class="hover:text-purple-500 transition duration-100" href="#">☰</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <main class="container pt-22 pb-8 gap-x-6 gap-y-10 grid md:grid-cols-4 grid-rows-2 mx-auto px-8 md:max-w-3/4 md:max-h-screen">
+        <div class="rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 col-span-4 text-zinc-600 dark:text-zinc-400 text-lg grid grid-cols-2 gap-6">
+            <iframe class="h-full w-full rounded-l-md" src="https://www.youtube.com/embed/i5jgbULka3M?si=ElBZ_9Jjq9ii2zlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="px-4 pt-6 pb-12">
+                <h2 class="text-4xl text-zinc-800 dark:text-zinc-200 hover:text-purple-500 font-bold pb-4"><a target="_blank" href="https://cyanopsia.itch.io/shovel-project-bullet-of-dreamlike-sight">Shovel Project: Bullet of Dreamlike Sight</a></h2>
+                <p>
+                    A fangame/mashup of Shovel Knight and Touhou Project, written in GML throughout January 2024.
+                    <br>
+                    <br>
+                    Click the title above to go to the demo's itch.io page.
+                </p>
+            </div>
+        </div>
+        <div class="rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 col-span-2 overflow-clip grid grid-cols-2">
+            <p class="px-4 py-4">
+                Guildford, the town I've lived in for most of my life, is a hub for games development in the UK including Hello Games and EA's regional headquarters.
+                I took an interest in games development at a young age, and my hobbyist coding mostly focuses on modding and fangames as a result of this.
+            </p>
+            <img
+                src="https://media.rightmove.co.uk/242k/241283/149367101/241283_217086-2_IMG_05_0000.jpeg"
+                class="object-cover rounded-r-md h-full w-full"
+                alt="Closeup of a B-flat clarinet resting atop several disorganised sheets of music."
+                title="Closeup of a B-flat clarinet resting atop several disorganised sheets of music."
+            />
+        </div>
+        <div class="px-4 py-4 rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip">
+            <h2 class="text-2xl text-zinc-800 dark:text-zinc-200 font-bold pb-4">Languages</h2>
+            <ul class="text-lg">
+                <li>
+                    - Java
+                </li>
+                <li>
+                    - Python
+                </li>
+                <li>
+                    - Visual Basic
+                </li>
+                <li>
+                    - GML
+                </li>
+                <li>
+                    - C#
+                </li>
+                <li>
+                    - HTML
+                </li>
+                <li>
+                    - CSS
+                </li>
+            </ul>
+        </div>
+        <div class="px-4 py-4 rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip">
+            <h2 class="text-2xl text-zinc-800 dark:text-zinc-200 font-bold pb-4">Projects</h2>
+            <ul class="text-lg space-y-3">
+                <li>
+                    - Hobby Website
+                </li>
+                <li>
+                    - Shovel Project: BoDS
+                </li>
+                <li>
+                    - SpigotMC Plugins
+                </li>
+                <li>
+                    - Minecraft Forge mods
+                </li>
+                <li>
+                    - Pocket Dungeon mods
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
