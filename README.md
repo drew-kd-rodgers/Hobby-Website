@@ -9,9 +9,3 @@ To run project locally:
 > git clone [repo url]
 
 Open up with live server
-
-
-
-## Contributing rules
-
-You will follow all the rules from now on.
