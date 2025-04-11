@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other | Hobby Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class = "bg-zinc-200 dark:bg-black text-zinc-600 dark:text-zinc-400 min-h-screen flex flex-col">
+    <nav class="bg-zinc-500 dark:bg-zinc-950 text-zinc-800 dark:text-zinc-200 fixed w-full flex justify-between px-4 h-16 shadow-lg/30 ring-2 ring-zinc-300 dark:ring-zinc-700">
+        <p class="mt-1 text-[32px] font-thin"><a class="hover:text-purple-600 hover:bg-zinc-800 hover:dark:text-purple-500 hover:dark:bg-zinc-700 transition duration-100 truncate bg-purple-500 dark:bg-purple-900 rounded-sm px-3 pb-2" href="index.html">drew's hobby website</a></p>
+
+        <!-- Navbar elements for desktop -->
+        <div class="hidden md:flex justify-between px-2 gap-10">
+            <ul class="flex items-center gap-6 px-4 text-xl">
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="coding.html">Coding</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="spriting.html">Spriting</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="clarinet.html">Clarinet</a>
+                </li>
+                <li>
+                    <a class="hover:text-purple-500 bg-purple-500 dark:bg-purple-900 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2" href="other.html">Other</a>
+                </li>
+            </ul>
+        </div>
+        
+    </nav>
+    <main class="container pt-22 pb-8 gap-x-6 gap-y-10 grid md:grid-cols-2 mx-auto px-8 md:max-w-3/4 md:max-h-screen">
+        <div class="px-6 py-4 rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 text-zinc-600 dark:text-zinc-400 text-lg">
+            <p class="pb-2">
+                In addition to the hobbies with their own pages, here are some other things I like to do but didn't have as much to say about:
+            </p>
+            <ul>
+                <li>- Ceramics painting</li>
+                <li>- Writing</li>
+                <li>- 3D modelling</li>
+                <li>- Cooking</li>
+                <li>- Nature walks</li>
+                <li>- Knitting snakes</li>
+            </ul>
+            <p class="pt-2">
+                I'm not picky about music genres, but my favourites are punk rock, alternative, and metal.
+            </p>
+        </div>
+        <form class="flex flex-col justify-between px-6 py-4 text-xl rounded-md bg-zinc-100 dark:bg-zinc-950 shadow-none md:shadow-md/20 ring-1 ring-zinc-300 dark:ring-zinc-700 overflow-clip">
+            <div>
+                <label for="hobby">What hobby should I try?</label><br>
+                <input type="text" id="hobby" name="hobby" class="ring-2 ring-zinc-300 dark:ring-zinc-700 w-full my-2"/>
+            </div>
+            <div>
+                <label for="sharedhobby">Check if we have any hobbies in common already:</label>
+                <input type="checkbox" id="sharedhobby" name="sharedhobby" value="shareshobby">
+            </div>
+            <input type="submit" value="Submit" class="hover:text-purple-500 bg-purple-500 dark:bg-purple-900 hover:bg-zinc-600 hover:dark:bg-zinc-700 transition duration-100 rounded-sm px-3 py-2 mt-40 h-max-full">
+        </form>
+    </main>
+</body>
+</html>
